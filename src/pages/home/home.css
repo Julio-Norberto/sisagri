@@ -1,0 +1,201 @@
+.background {
+    position: absolute;
+    background-image: url(../../assets/background_SISAGRI.png);
+    background-size: cover;
+    width: 1440px;
+    height: 900px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-content {
+    width: 50%;
+}
+
+.logo-img {
+    position: absolute;
+    width: 462.94px;
+    height: 214.88px;
+    left: 106.62px;
+    top: 59.52px;
+
+}
+
+.text h1 {
+    position: absolute;
+    width: 499px;
+    height: 69px;
+    left: 98px;
+    top: 487px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.text p {
+    position: absolute;
+    width: 500px;
+    height: 69px;
+    left: 98px;
+    top: 616px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.icons {
+    position: absolute;
+    top: 780px;
+    left: 190px;
+}
+
+.facebook {
+    margin-right: 90px;
+}
+
+.instagram {
+    margin-right: 90px;
+}
+
+.login {
+    position: absolute;
+    width: 418px;
+    height: 577px;
+    left: 852px;
+    top: 162px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.login h1 {
+    width: 278px;
+    height: 38px;
+    margin: 40px auto;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+.company {
+    box-sizing: border-box;
+    width: 335px;
+    height: 45px; 
+    background: #FFFFFF;
+    border: 2px solid #DBDBDB;
+    border-radius: 10px;
+    margin-left: 37px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-image: url(../../assets/company.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 40px;
+}
+
+.user {
+    box-sizing: border-box;
+    width: 335px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 2px solid #DBDBDB;
+    border-radius: 10px;
+    margin-left: 37px;
+    margin-bottom: 20px;
+    background-image: url(../../assets/user.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 40px;
+}
+
+.password {
+    box-sizing: border-box;
+    width: 335px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 2px solid #DBDBDB;
+    border-radius: 10px;
+    margin-left: 37px;
+    margin-bottom: 30px;
+    background-image: url(../../assets/password.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 40px;
+}
+
+.forgot-password {
+    margin-left: 230px;
+    width: 143px;
+    height: 20px;
+    text-align: end;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+    color: #1A877F;
+}
+
+.login button {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 149px;
+    gap: 4px;
+
+    width: 340px;
+    height: 48px;
+    margin: 30px auto;
+
+    background: #1A877F;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.login button:hover {
+    cursor: pointer;
+}
+
+.no-record {
+    width: 418px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #5F5F5F;
+}
+
+.no-record a {
+    color: #1A877F;
+}
